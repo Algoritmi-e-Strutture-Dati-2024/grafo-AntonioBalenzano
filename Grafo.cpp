@@ -155,6 +155,10 @@ void arcoMinimo(const T& nodo) const {
                   << " con peso " << minPeso << ".\n";
     }
 }
+bool sonoConnessi(const T& nodo1, const T& nodo2) const {
+    return verificaArco(nodo1, nodo2); // Verifica se esiste un arco tra i due nodi
+}
+
 
     
 private:
